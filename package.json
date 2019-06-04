@@ -1,0 +1,24 @@
+{
+  "name": "score-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "npm install && cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partyshah/score-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/partyshah/score-tracker/issues"
+  },
+  "homepage": "https://github.com/partyshah/score-tracker#readme",
+  "dependencies": {
+    "heroku": "^7.25.0"
+  }
+}
